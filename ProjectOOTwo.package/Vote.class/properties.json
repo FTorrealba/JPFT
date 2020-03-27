@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProjectOOTwo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"creationDate",
+		"user"
+	],
+	"name" : "Vote",
+	"type" : "normal"
+}
