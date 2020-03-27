@@ -1,0 +1,3 @@
+accessing
+favoriteTopics
+	^ favoriteTopics
