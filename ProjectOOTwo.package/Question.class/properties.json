@@ -11,7 +11,9 @@
 		"creator",
 		"creationDate",
 		"answers",
-		"topics"
+		"topics",
+		"likes",
+		"dislikes"
 	],
 	"name" : "Question",
 	"type" : "normal"
