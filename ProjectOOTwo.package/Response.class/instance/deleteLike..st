@@ -1,3 +1,3 @@
 private
 deleteLike: anUser
-	likes remove: (likes detect:[:each | each isCreator: anUser])
+	likes remove: (likes detect:[:each | each isUserCreator: anUser])
