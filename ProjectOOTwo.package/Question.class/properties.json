@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProjectOOTwo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"description",
+		"creator",
+		"creationDate",
+		"answers",
+		"topics"
+	],
+	"name" : "Question",
+	"type" : "normal"
+}
