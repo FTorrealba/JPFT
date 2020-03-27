@@ -1,2 +1,2 @@
 # JPFT
-Proyecto de Juan Pablo Nieva y Francisco Torrealba
+Proyecto de Juan Nieva y Francisco Torrealba
