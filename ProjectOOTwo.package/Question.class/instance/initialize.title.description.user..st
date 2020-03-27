@@ -5,4 +5,6 @@ initialize:anTopic title:anTitle description:anDescription user:anUser
 	description := anDescription.
 	creator := anUser.
 	creationDate := DateAndTime now.
+	likes:= OrderedCollection new.
+	dislikes:= OrderedCollection new.
 	
