@@ -7,7 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"creationDate",
-		"user"
+		"creator"
 	],
 	"name" : "Vote",
 	"type" : "normal"
