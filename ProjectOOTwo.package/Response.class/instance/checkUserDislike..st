@@ -1,3 +1,4 @@
 private
 checkUserDislike: anUser
-	^ dislikes includes: anUser
+	^ dislikes anySatisfy: [ :each | each isCreator: anUser ]
+		
