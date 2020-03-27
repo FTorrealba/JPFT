@@ -6,9 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"text",
 		"creationDate",
-		"user"
+		"creator",
+		"likes",
+		"dislikes"
 	],
-	"name" : "Vote",
+	"name" : "Response",
 	"type" : "normal"
 }
