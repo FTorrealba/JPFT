@@ -6,4 +6,4 @@ initialize:anTopic title:anTitle description:anDescription user:anUser
 	creator := anUser.
 	creationDate := DateAndTime now.
 	likes := OrderedCollection new.
-	dislikes := OrderedCollection new
+	dislikes := OrderedCollection new.
