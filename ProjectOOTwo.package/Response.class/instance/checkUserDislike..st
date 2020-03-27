@@ -1,4 +1,4 @@
 private
 checkUserDislike: anUser
-	^ dislikes anySatisfy: [ :each | each isCreator: anUser ]
+	^ dislikes anySatisfy: [ :each | each isUserCreator: anUser ]
 		

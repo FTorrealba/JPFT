@@ -2,6 +2,6 @@ initialization
 initialize: aName password: aPassword
 	name := aName.
 	password := aPassword.
-	creationDate := DateAndTime new.
+	creationDate := DateAndTime now.
 	favoriteTopics := OrderedCollection new.
 	following := OrderedCollection new
