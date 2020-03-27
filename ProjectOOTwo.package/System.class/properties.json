@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ProjectOOTwo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"users",
+		"topics",
+		"questions"
+	],
+	"name" : "System",
+	"type" : "normal"
+}
