@@ -1,3 +1,3 @@
-as yet unclassified
+public
 getRelevantQuestionFromUser: anUser
 	^questions select: [:each | each isRelevant:anUser ].
