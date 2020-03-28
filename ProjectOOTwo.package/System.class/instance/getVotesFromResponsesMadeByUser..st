@@ -1,3 +1,3 @@
 private
-getVotesForResponsesFromUser: anUser
+getVotesFromResponsesMadeByUser: anUser
 	^questions sumNumbers:[:each | each getVotesResponsesFromUser:anUser].

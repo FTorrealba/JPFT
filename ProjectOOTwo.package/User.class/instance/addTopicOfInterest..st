@@ -1,3 +1,3 @@
 adding
 addTopicOfInterest: anTopic
-	favoriteTopics := anTopic
+	favoriteTopics add: anTopic

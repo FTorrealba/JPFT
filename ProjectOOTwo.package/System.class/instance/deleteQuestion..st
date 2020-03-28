@@ -1,4 +1,4 @@
 public
 deleteQuestion: anQuestion
 	anQuestion deleteAnswers.
-	questions remove: anQuestion . "remove o delete???"
+	questions remove: anQuestion . "remove o delete???" "Es remove"
