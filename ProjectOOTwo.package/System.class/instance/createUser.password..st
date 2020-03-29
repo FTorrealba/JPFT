@@ -1,3 +1,3 @@
 adding
 createUser: anName password: anPassword
-	users add: (User new user: anName password: anPassword)
+	users add: (User user: anName password: anPassword)

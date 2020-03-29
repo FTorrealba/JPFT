@@ -4,4 +4,4 @@ addLike: anUser
         ifTrue: [ ^ self ].
     (self checkUserDislike: anUser)
         ifTrue: [ self deleteDislike: anUser ].
-    likes add: (Vote new initialize: anUser)
+    likes add: (Vote user: anUser)
