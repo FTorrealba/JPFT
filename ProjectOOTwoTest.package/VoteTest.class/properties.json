@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "addQuestion 3/30/2020 18:30",
+	"super" : "TestCase",
+	"category" : "ProjectOOTwoTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"vote",
+		"user1",
+		"user2"
+	],
+	"name" : "VoteTest",
+	"type" : "normal"
+}
