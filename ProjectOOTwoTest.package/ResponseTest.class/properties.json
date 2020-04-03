@@ -8,7 +8,9 @@
 	"instvars" : [
 		"userL",
 		"userD",
-		"response"
+		"response",
+		"voteLike",
+		"voteDislike"
 	],
 	"name" : "ResponseTest",
 	"type" : "normal"
