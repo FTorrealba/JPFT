@@ -1,4 +1,4 @@
-public
+adding
 addDislike: anUser
 	(self checkUserDislike: anUser)
         ifTrue: [ ^ self ].

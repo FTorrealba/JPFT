@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ProjectOOTwoTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"topic",
+		"topics",
+		"question",
+		"response",
+		"user"
+	],
+	"name" : "QuestionTest",
+	"type" : "normal"
+}
