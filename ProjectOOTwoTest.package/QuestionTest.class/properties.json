@@ -9,8 +9,14 @@
 		"topic",
 		"topics",
 		"question",
-		"response",
-		"user"
+		"answers",
+		"user",
+		"user1",
+		"user2",
+		"creator",
+		"response1",
+		"response2",
+		"response3"
 	],
 	"name" : "QuestionTest",
 	"type" : "normal"

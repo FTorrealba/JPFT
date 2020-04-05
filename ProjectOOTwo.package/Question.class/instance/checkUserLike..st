@@ -1,3 +1,5 @@
 private
 checkUserLike: anUser
-	^ likes anySatisfy: [:each | each isUserCreator:anUser ].
+	likes isNotEmpty
+		ifTrue: [ ^ likes anySatisfy: [ :each | each isUserCreator: anUser ] ]
+		ifFalse: [ ^ false ]

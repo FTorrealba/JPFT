@@ -1,3 +1,6 @@
 adding
 addAnswer: anText user: anUser
-	answers add: (Response text: anText creator: anUser)
+	|resp|
+	resp := Response text: anText creator: anUser.
+	answers add: resp.
+	^resp.
