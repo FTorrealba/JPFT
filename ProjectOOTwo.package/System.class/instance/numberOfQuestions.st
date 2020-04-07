@@ -1,0 +1,3 @@
+public
+numberOfQuestions
+	^ questions size

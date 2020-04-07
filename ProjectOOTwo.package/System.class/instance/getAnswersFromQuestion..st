@@ -1,3 +1,3 @@
 public
 getAnswersFromQuestion: anQuestion
-	^ self orderAnswers: [ anQuestion getAnswers ].
+	^ self orderAnswers: anQuestion getAnswers

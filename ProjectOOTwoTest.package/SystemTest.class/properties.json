@@ -13,7 +13,10 @@
 		"userTwo",
 		"topicOne",
 		"topicTwo",
-		"topics"
+		"topics",
+		"answerOne",
+		"answerTwo",
+		"answerThree"
 	],
 	"name" : "SystemTest",
 	"type" : "normal"

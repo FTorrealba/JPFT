@@ -9,6 +9,7 @@ setUp
 	topicTwo := system
 		addTopic: 'C#'
 		description: 'Lenguaje de programacion'.
+	userOne addTopicOfInterest: topicTwo.
 	topics := Set new.
 	topics
 		add: topicOne;
@@ -22,4 +23,6 @@ setUp
 		addQuestion: topics
 		title: 'Coleccion de topicos'
 		description: 'Coleccion random'
-		user: userTwo
+		user: userTwo.
+	answerOne := questionOne addAnswer: 'Respuesta Uno' user: userTwo.
+	answerTwo := questionTwo addAnswer: 'Respuesta Dos' user: userOne
