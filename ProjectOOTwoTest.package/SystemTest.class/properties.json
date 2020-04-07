@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ProjectOOTwoTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"system",
+		"questionOne",
+		"questionTwo",
+		"userOne",
+		"userTwo",
+		"topicOne",
+		"topicTwo",
+		"topics"
+	],
+	"name" : "SystemTest",
+	"type" : "normal"
+}

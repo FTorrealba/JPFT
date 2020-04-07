@@ -1,3 +1,5 @@
 public
 belongsToTopic: anTopic
-	^ topics includes: anTopic.
+	topics isCollection
+		ifTrue: [ ^ topics includes: anTopic ]
+		ifFalse: [ ^ topics = anTopic ]
