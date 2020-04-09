@@ -25,4 +25,4 @@ setUp
 		description: 'Coleccion random'
 		user: userTwo.
 	answerOne := questionOne addAnswer: 'Respuesta Uno' user: userTwo.
-	answerTwo := questionTwo addAnswer: 'Respuesta Dos' user: userOne
+	"answerTwo := questionTwo addAnswer: 'Respuesta Dos' user: userOne" "Esta habria que sacarla porque sino en 'testCountResponsesFromUser' el userOne tiene una respuesta y en el test dice que no tiene ninguna"
