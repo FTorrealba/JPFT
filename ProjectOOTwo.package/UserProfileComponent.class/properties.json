@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "HeaderComponent",
+	"category" : "ProjectOOTwo-IU",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"system",
+		"user"
+	],
+	"name" : "UserProfileComponent",
+	"type" : "normal"
+}
