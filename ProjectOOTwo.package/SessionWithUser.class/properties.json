@@ -1,16 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "WASession",
 	"category" : "ProjectOOTwo-IU",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"system",
-		"nameUser",
-		"password",
 		"user"
 	],
-	"name" : "LoginComponent",
+	"name" : "SessionWithUser",
 	"type" : "normal"
 }

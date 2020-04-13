@@ -6,11 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"system",
-		"nameUser",
-		"password",
-		"user"
+		"system"
 	],
-	"name" : "LoginComponent",
+	"name" : "HeaderComponent",
 	"type" : "normal"
 }

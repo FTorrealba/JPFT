@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "WAComponent",
+	"super" : "HeaderComponent",
 	"category" : "ProjectOOTwo-IU",
 	"classinstvars" : [ ],
 	"pools" : [ ],
