@@ -6,4 +6,4 @@ renderContentOn: aCanvas
 	aCanvas anchor
 		callback: [ self createQuestion ];
 		with: 'Hacer una nueva pregunta'.
-	"self showLastQuestions: aCanvas"
+	self showLastQuestions: aCanvas

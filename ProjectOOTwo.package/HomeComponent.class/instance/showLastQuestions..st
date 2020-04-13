@@ -1,10 +1,8 @@
-as yet unclassified
+callbacks
 showLastQuestions: aCanvas
 	aCanvas
-		form: [ (system getQuestion)
+		form: [ system getQuestion
 				do: [ :each | 
 					aCanvas listItem
-						with: [ aCanvas anchor
-								callback: [ self showDetailQuestion: each ];
-								with: each description ] ].
-			aCanvas horizontalRule ]
+						with: [ self renderQuestion: aCanvas question: each ] ] ].
+	aCanvas horizontalRule
