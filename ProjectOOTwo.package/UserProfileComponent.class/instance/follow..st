@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 follow: anUser
 	self session user startFollowing: anUser
