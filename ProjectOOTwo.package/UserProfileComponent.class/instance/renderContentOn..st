@@ -1,4 +1,7 @@
 rendering
 renderContentOn: aCanvas
 	super renderContentOn: aCanvas.
-	aCanvas paragraph: (aCanvas strong: 'Preguntas de ' , user name)
+	aCanvas text: [ aCanvas strong: 'Preguntas de ' , user name ].
+	aCanvas anchor
+		callback: [ self follow: user ];
+		with: [ aCanvas strong: 'Follow' ]
