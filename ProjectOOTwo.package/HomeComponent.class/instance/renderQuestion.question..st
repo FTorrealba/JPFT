@@ -10,4 +10,7 @@ renderQuestion: aCanvas question: aQuestion
 	aCanvas anchor
 		callback: [ self showPerfilUser: aQuestion getUserCreator ];
 		with: aQuestion getUserCreator name.
-	"aCanvas horizontalRule"
+	self renderCountAnswers: aCanvas question: aQuestion.
+	aCanvas break.
+	self renderLikesAndDislikes: aCanvas question: aQuestion.
+	aCanvas horizontalRule

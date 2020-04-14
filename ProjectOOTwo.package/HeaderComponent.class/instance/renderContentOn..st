@@ -5,6 +5,6 @@ renderContentOn: aCanvas
 	aCanvas text: self session user name.
 	aCanvas space.
 	aCanvas anchor
-		callback: [ self logOut];
+		callback: [ self logOut ];
 		with: 'Log Out'.
 	aCanvas horizontalRule
