@@ -1,3 +1,3 @@
 public
 calculateVotes
-	^ likes size - dislikes size
+	^ self countLikes - self countDislikes

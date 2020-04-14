@@ -1,0 +1,3 @@
+public
+countLikes
+	^ likes size
