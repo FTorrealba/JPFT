@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "QuestionComponent",
+	"super" : "WAComponent",
 	"category" : "ProjectOOTwo-IU",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"user"
+		"question",
+		"text"
 	],
-	"name" : "UserProfileComponent",
+	"name" : "ResponseComponent",
 	"type" : "normal"
 }

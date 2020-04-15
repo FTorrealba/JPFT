@@ -2,6 +2,6 @@ callbacks
 showDetailQuestion: anQuestion
 	self
 		call:
-			(QuestionComponent new
+			(DetailQuestionComponent new
 				question: anQuestion;
 				yourself)

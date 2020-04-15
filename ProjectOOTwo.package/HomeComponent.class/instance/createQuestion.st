@@ -1,3 +1,3 @@
 processing
 createQuestion
-	self call: QuestionComponent new
+	self call: CreateQuestionComponent new
