@@ -12,5 +12,5 @@ renderQuestion: aCanvas question: aQuestion
 		with: aQuestion getUserCreator name.
 	self renderCountAnswers: aCanvas question: aQuestion.
 	aCanvas break.
-	self renderLikesAndDislikes: aCanvas question: aQuestion.
+	self renderLikesAndDislikes: aCanvas object: aQuestion.
 	aCanvas horizontalRule
