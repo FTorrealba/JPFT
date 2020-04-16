@@ -5,6 +5,4 @@ accept
 		title: title
 		description: detailQuestion
 		user: self session user.
-	topics := nil.
-	title := nil.
-	detailQuestion := nil
+	self answer

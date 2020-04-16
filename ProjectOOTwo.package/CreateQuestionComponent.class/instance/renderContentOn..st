@@ -1,8 +1,12 @@
 rendering
 renderContentOn: aCanvas
 	super renderContentOn: aCanvas.
-	aCanvas text: 'Nueva Pregunta'.
+	aCanvas strong: [ aCanvas text: 'Nueva Pregunta' ].
 	aCanvas horizontalRule.
 	aCanvas
-		form: [ self renderInputElementsOn: aCanvas.
-			self renderButtonsOn: aCanvas ]
+		form: [ aCanvas
+				table: [ aCanvas
+						tableRow: [ self renderTituloInputOn: aCanvas ];
+						tableRow: [ self renderDesarrolloInputOn: aCanvas ];
+						tableRow: [ self renderTopicosInputOn: aCanvas ];
+						tableRow: [ self renderButtonsOn: aCanvas ] ] ]
