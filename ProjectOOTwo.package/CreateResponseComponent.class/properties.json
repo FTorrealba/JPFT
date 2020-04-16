@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"question"
+		"question",
+		"response"
 	],
 	"name" : "CreateResponseComponent",
 	"type" : "normal"

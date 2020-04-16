@@ -1,5 +1,7 @@
 callbacks
 showQuestions: aCanvas
 	self renderQuestion: aCanvas question: question.
-	aCanvas horizontalRule.
-	self renderResponsesOn: aCanvas
+	self renderResponsesOn: aCanvas.
+	aCanvas
+		form: [ self renderInputElementsOn: aCanvas.
+			self renderButtonsOn: aCanvas ]
