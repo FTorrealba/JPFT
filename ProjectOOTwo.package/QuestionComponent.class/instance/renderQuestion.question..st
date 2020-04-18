@@ -12,7 +12,7 @@ renderQuestion: aCanvas question: aQuestion
 					aCanvas space ] ].
 	aCanvas text: 'Realizada por '.
 	aCanvas anchor
-		callback: [ self showPerfilUser: aQuestion getUserCreator ];
+		callback: [ self showPerfilUser: (aQuestion getUserCreator) ];
 		with: aQuestion getUserCreator name.
 	self renderCountAnswers: aCanvas question: aQuestion.
 	aCanvas break.

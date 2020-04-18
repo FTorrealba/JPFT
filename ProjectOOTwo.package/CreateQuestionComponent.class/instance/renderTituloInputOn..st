@@ -2,5 +2,8 @@ rendering
 renderTituloInputOn: aCanvas
 	aCanvas
 		tableData: [ aCanvas label: 'Titulo: ' ];
-		tableData: [ aCanvas textInput on: #newTitle of: self ].
-		
+		tableData: [ aCanvas textArea
+				style: 'resize: none';
+				columns: 50;
+				rows: 1;
+				on: #newTitle of: self ]

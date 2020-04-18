@@ -1,9 +1,10 @@
 rendering
 renderButtonsOn: aCanvas
-	aCanvas break.
-	aCanvas submitButton
-		callback: [ self cancel ];
-		with: 'Cancelar'.
-	aCanvas submitButton
-		callback: [ self save ];
-		with: 'Guardar'
+	aCanvas
+		tableData;
+		tableData: [ aCanvas submitButton
+				callback: [ self cancel ];
+				value: 'Cancelar'.
+			aCanvas submitButton
+				callback: [ self save ];
+				value: 'Guardar' ]

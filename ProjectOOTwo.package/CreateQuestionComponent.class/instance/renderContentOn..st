@@ -7,6 +7,7 @@ renderContentOn: aCanvas
 		form: [ aCanvas
 				table: [ aCanvas
 						tableRow: [ self renderTituloInputOn: aCanvas ];
+						tableRow;
 						tableRow: [ self renderDesarrolloInputOn: aCanvas ];
 						tableRow: [ self renderTopicosInputOn: aCanvas ];
 						tableRow: [ self renderButtonsOn: aCanvas ] ] ]
