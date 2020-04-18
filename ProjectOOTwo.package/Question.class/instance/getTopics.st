@@ -1,3 +1,3 @@
 public
 getTopics
-	^ topics
+	^ topics asOrderedCollection 

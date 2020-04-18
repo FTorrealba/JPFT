@@ -4,5 +4,5 @@ isRelevantToUser: anUser
 
 	"isAFollowing devuelve true si el usuario es seguidor de creator, por lo tanto el SEGUNDO es true"
 
-	^ (topics anySatisfy: [ :each | anUser isOfInterest: each ]) 	"PRIMERO"
-		or: [ anUser isAFollowing: creator ]	"SEGUNDO"
+	^ (topics anySatisfy: [ :each | anUser isOfInterest: each ])
+		or: [ anUser isAFollowing: creator ]

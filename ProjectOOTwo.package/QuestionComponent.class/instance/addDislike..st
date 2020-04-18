@@ -1,3 +1,3 @@
 adding
-addDislike: aQuestion
-	aQuestion addDislike: self session user
+addDislike: anObject
+	anObject addDislike: self session user

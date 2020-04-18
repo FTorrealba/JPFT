@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 logOut
-	self answer
+	self show: LoginComponent new

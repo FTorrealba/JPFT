@@ -1,4 +1,4 @@
-instance creation
+accessing
 soleInstance
-	soleInstance ifNil: [ soleInstance := self new ].
+	soleInstance ifNil: [ soleInstance := System new ].
 	^ soleInstance

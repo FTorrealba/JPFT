@@ -1,7 +1,7 @@
 rendering
 renderContentOn: aCanvas
+	aCanvas heading: 'CuOOra'.
 	aCanvas
-		form: [ aCanvas heading: 'CuOOra' ];
 		form: [ aCanvas space.
 			aCanvas text: self session user name.
 			aCanvas space.

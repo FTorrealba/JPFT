@@ -1,3 +1,3 @@
 adding
-addLike: aQuestion
-	aQuestion addLike: self session user
+addLike: aObject
+	aObject addLike: self session user

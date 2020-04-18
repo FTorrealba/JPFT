@@ -1,8 +1,7 @@
 adding
 addUser
 	(system userWithName: nameUser protectedBy: password)
-		ifNil:
-			[ self session user: (system createUser: nameUser password: password) ].
+		ifNotNil: [ :it | self continue: it ]
+		ifNil: [ self continue: (system createUser: nameUser password: password) ].
 	nameUser := nil.
-	password := nil.
-	self continue
+	password := nil
