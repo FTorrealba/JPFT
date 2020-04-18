@@ -24,4 +24,4 @@ setUp
 		title: 'Coleccion de topicos'
 		description: 'Coleccion random'
 		user: userTwo.
-	answerOne := questionOne addAnswer: 'Respuesta Uno' user: userTwo.
+	answerOne := questionOne addAnswer: 'Respuesta Uno' user: userTwo

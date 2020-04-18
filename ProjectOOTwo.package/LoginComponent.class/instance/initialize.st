@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	system := System soleInstance
+	system := Cuoora new soleInstance

@@ -1,3 +1,4 @@
 instance creation
 newTopics: anTopics
-	topics := anTopics
+	topics := (anTopics substrings: ',' asOrderedCollection)
+		collect: [ :each | each trimBoth withSeparatorsCompacted ]
